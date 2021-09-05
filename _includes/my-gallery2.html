@@ -1,0 +1,51 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  {%- feed_meta -%}
+</head>
+
+<body>
+{% if page.gallery-folder %}
+
+<!-- Container for the image gallery -->
+<div class="container">
+
+{% assign tiedostonimet = page.gallery-pics %}
+{% for fullimage in tiedostonimet %}
+
+ <!-- Full-width images with number text -->
+ <div class="mySlides">
+   <div class="numbertext"> Kuva-{{ fullimage.nr }} </div>
+   <img src="{{ page.gallery-folder }}{{ fullimage.tiedosto }}" style="width:100%">
+ </div>
+
+{% endfor %}
+
+ <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+ <!-- Image text -->
+   <div class="caption-container">
+      <span id="caption"></span>
+   </div>
+
+{% for thumbimage in tiedostonimet %}
+
+ <!-- Thumbnail images, note same file name than full-width images -->
+  <div class="row">
+    <div class="column">
+    <img class="demo cursor" src="{{ page.thumbs-folder }}{{ thumbimage.tiedosto }}" style="width:100%" onclick="currentSlide({{ thumbimage.nr }})" alt="{{ thumbimage.teksti  }}">
+    </div>
+
+{% endfor %}
+
+</div>
+
+<script src="/assets/js/gallery.js">
+
+{% endif %}
+</body>
