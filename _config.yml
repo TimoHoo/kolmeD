@@ -71,9 +71,10 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-  - palloja.md
   - kolmeD.md
   - Villisika.md
+  - palloja.md
+  - Puita.md
 
 # Fix into github Authentication error: "GitHub Metadata: No GitHub API authentication could be found."
 github: [metadata]
