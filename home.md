@@ -3,16 +3,17 @@ title: "Timon 3D projektit"
 layout: home
 permalink: /index.html
 ---
-3D exercises using threejs.org libraries and examples.
+Repository of my 3D experiments. Libraries and examples from threejs.org and babylon.js are used as basis.
 
 Inspired also by Jekyll: <https://jekyllrb.com> & GitHub pages environment.
 
-## Linkkejä:
+## Links:
 
 - [THREE](https://threejs.org/)
+- [BABYLON](https://babylonjs.com/)
 - [Sketchfab](https://sketchfab.com/3d-models/)
 - [Jekyll](https://jekyllrb.com/)
-- [Minima](https://github.com/jekyll/minima)
+- [Github](https://github.com/jekyll/minima)
 
 ## Credits:
 
