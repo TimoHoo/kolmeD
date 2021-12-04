@@ -9,5 +9,6 @@ Inspired by THREEjs + BABYLONjs editors, Jekyll: <https://jekyllrb.com> & GitHub
 - [THREE](https://threejs.org/)
 - [BABYLON](https://babylonjs.com/)
 - [Sketchfab](https://sketchfab.com/3d-models/)
+- [Mixamo](https://www.mixamo.com/)
 - [Jekyll](https://jekyllrb.com/)
 - [GitHub](https://github.com/jekyll/minima)

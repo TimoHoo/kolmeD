@@ -1,5 +1,5 @@
 ---
-title: "Timon 3D projektit"
+title: "My 3D projects"
 layout: home
 permalink: /index.html
 ---
@@ -12,6 +12,7 @@ Inspired also by Jekyll: <https://jekyllrb.com> & GitHub pages environment.
 - [THREE](https://threejs.org/)
 - [BABYLON](https://babylonjs.com/)
 - [Sketchfab](https://sketchfab.com/3d-models/)
+- [Mixamo](https://www.mixamo.com/)
 - [Jekyll](https://jekyllrb.com/)
 - [Github](https://github.com/jekyll/minima)
 
