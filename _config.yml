@@ -75,6 +75,7 @@ header_pages:
   - palloja.md
   - Puita.md
   - Ukkoja.md
+  - Alasiikalampi.md
 
 # Fix into github Authentication error: "GitHub Metadata: No GitHub API authentication could be found."
 github: [metadata]
