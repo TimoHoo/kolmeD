@@ -1,5 +1,5 @@
 ---
-title: "Ala-Siikalamppi"
+title: "Siikalampi"
 layout: page-blank
 excerpt: "Babylonjs animation snowflake"
 permalink: /alasiikalampi
