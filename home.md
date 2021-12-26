@@ -19,6 +19,7 @@ Inspired also by Jekyll: <https://jekyllrb.com> & GitHub pages environment.
 ## Credits:
 
 - Copyright 2010-2021: [Three.js Authors](https://threejs.org/) SPDX-License-Identifier: MIT
+- Copyright ->2021: [Babylon.js is licensed under the Apache License 2.0](https://github.com/BabylonJS/Babylon.js/blob/d9457c9f840a62c6fbdec32226ec80d18333608e/license.md)
 - [Wild Boar 1 (animated)](https://sketchfab.com/3d-models/wild-boar-1-animated-40db3607f0af4c069619c6cb686c42e7) by
 [3D Voxel](https://sketchfab.com/3dvoxel) and
 [licensed under CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
