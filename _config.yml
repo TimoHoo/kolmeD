@@ -14,15 +14,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+# Site settings
 title: Home
 locale: "fi"
 author:
   name: Timo Hoo
   email: timo.hoo55.th@gmail.com
+# Warning: You didn't set an URL in the config file, you may encounter problems with some plugins.
 
 description: >- # this means to ignore newlines until "baseurl:"
   Timo Hoon 3D kokeiluja, jotka on
-  julkaistu on GitHub Inc -palvelussa.
+  julkaistu GitHub Inc -palvelussa.
+
+url: #"https://timohoo.github.io/"
+baseurl: #"/"
+repository: "timohoo/kolmed"
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -76,6 +83,7 @@ header_pages:
   - Puita.md
   - Ukkoja.md
   - Alasiikalampi.md
+  - Purkkeja.md
 
 # Fix into github Authentication error: "GitHub Metadata: No GitHub API authentication could be found."
 github: [metadata]
@@ -97,14 +105,14 @@ timezone: Europe/Helsinki # https://en.wikipedia.org/wiki/List_of_tz_database_ti
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
 
 defaults:
 # _posts
