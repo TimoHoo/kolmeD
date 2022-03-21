@@ -85,6 +85,7 @@ header_pages:
   - Alasiikalampi.md
   - Purkkeja.md
   - Aaltoja.md
+  - Luikeroita.md
 
 # Fix into github Authentication error: "GitHub Metadata: No GitHub API authentication could be found."
 github: [metadata]
